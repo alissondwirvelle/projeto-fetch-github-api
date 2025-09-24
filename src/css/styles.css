@@ -168,15 +168,19 @@ main {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-.repo-name:hover {
-    color: #00cce7;
-}
-
 .repositories-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
     gap: 16px;
     margin-top: 12px;
+}
+
+span {
+    background-color: #a225bb;
+    color: #fff;
+    border-radius: 3px;
+    padding: 4px;
+    margin-top: 5px;
 }
 
 @media (max-width: 1280px) {
