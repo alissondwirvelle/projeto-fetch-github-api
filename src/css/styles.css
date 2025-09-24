@@ -152,6 +152,19 @@ main {
     display: none;
 }
 
+.profile-data .repositories ul,
+.profile-data .events ul {
+    max-height: 200px;
+    overflow-y: auto;
+    padding-left: 20px;
+    margin-top: 8px;
+}
+
+.profile-data li {
+    margin-bottom: 6px;
+    font-size: 20px;
+}
+
 .repo-card {
     border: 1px solid #ddd;
     border-radius: 8px;
